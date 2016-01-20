@@ -1,3 +1,16 @@
+NOTICE
+======
+
+Hello,
+
+This is a fork of Florent's original project. It's purpose is preparation work for inclusion in the [Spring framework](https://github.com/spring-projects/spring-framework), specifically the spring-jdbc module, from Spring Framework 4.3 RC1. See [SPR-4691](https://jira.spring.io/browse/SPR-4691) for discussion.
+
+As part of this process, the project will be updated to a minimum Spring Framework 4.2.4, which also has a corresponding minimum Java version of Java 6.
+
+It will also be modified to follow the Spring contributing [Guidelines](https://github.com/spring-projects/spring-framework/blob/master/CONTRIBUTING.md).
+
+Note that for expediency the project will continue to use a Maven pom for build and dependency management, until it is ready to be moved into a PR directly on the Spring Framework project (which uses Gradle).
+
 About
 =====
 
@@ -8,9 +21,7 @@ This project is an implementation of the _missing_ `SimpleJdbcUpdate` class.
 Requirements
 ============
 
-Java 1.5+ and Spring 3.0.5+ are required.
-
-If you're using a prior Spring version, feel free to contact me.
+(see NOTICE above)
 
 Download and install
 ====================
